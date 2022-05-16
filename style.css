@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+.Container{
+    background-color: aqua;
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box-one, .box-two, .box-three, .box-four, .box-five, .box-six{
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 200px;
+    width: 200px;
+}
+.box-one{
+    margin-right: auto;
+    width: 24%;
+    background-color: #F8ECD1;
+    height: 100%;
+}
+.box-two{
+    margin-right: auto;
+    width: 24%;
+    background-color: #DEB6AB;
+    height: 33%;
+}
+.box-three{
+    margin-right: auto;
+    width: 24%;
+    background-color: #AC7D88;
+    height: 33%;
+}
+.box-four{
+    width: 24%;
+    background-color: #85586F;
+    height: 66%;    
+}
+.box-five{
+    margin-top: 0;
+    background-color: #826F66;
+    
+}
+.box-six{
+    margin-right: 10px;
+    background-color: #632626;
+    align-self: flex-end;
+}
